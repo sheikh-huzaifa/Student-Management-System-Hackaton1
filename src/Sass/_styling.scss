@@ -1,0 +1,31 @@
+@import "../../node_modules//bootstrap/scss/bootstrap.scss";
+
+.customSidebar{
+    height: 100vh !important;
+    hr{
+        color: white !important;
+        border: 5px solid white !important;
+    }
+    a{
+        color: white !important; 
+    }
+}
+
+.cardCustom{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   
+} 
+
+.backRGB{
+    background-image: linear-gradient(to right, rgba(0, 128, 128, 0.7), rgba(255, 192, 203, 0.8));
+}
+
+
+.dashCard{
+    box-shadow: rgb(46, 46, 46);
+    box-shadow: -9px 10px 16px 7px rgba(0,0,0,0.26) inset;
+    
+    border-top-right-radius: 1500px;
+    border-bottom-left-radius: 3000px;
+    background-color: #D2E0BF;
+}
